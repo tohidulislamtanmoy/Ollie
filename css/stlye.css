@@ -1,0 +1,654 @@
+/* fonts*/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/*general css*/
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: #fff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* headar area*/
+
+.ollie-header {
+  background: url(../image/header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header-overlay {
+  background: #2c3e50;
+  opacity: 0.9;
+}
+
+.logo-menu {
+  width: 45px;
+}
+
+.navbar-collapse {
+
+  /* display: flex; */
+  justify-content: end;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 14px;
+
+}
+
+
+.menu-heading h2 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+.menu-heading a {
+  background: #f06161;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.menu-text {
+  padding-top: 100px;
+}
+
+.menu-text h5 {
+  color: #fff;
+  opacity: 0.9;
+  font-size: 16px;
+}
+
+.menu-text h3 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.menu-text p {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.menu-Contact {
+  padding-top: 100px;
+
+}
+
+.menu-Contact a {
+
+
+  font-size: 14px;
+  color: #fff;
+}
+
+.menu-Contact a i {
+  padding: 0 3px;
+}
+
+.menu-social-media {
+  padding-top: 100px;
+}
+
+.menu-social-media h6 {
+  text-align: right;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.menu-social-media ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-social-media ul li {
+  padding: 0 5px;
+}
+
+.menu-social-media ul li a {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.menu-social-media ul li a:hover {
+  color: #f06161;
+}
+
+/* about area*/
+
+.ollie-about {
+  background: #f1fafb;
+}
+
+.about-text {
+  padding: 65px 5px;
+}
+
+.about-text h6 {
+  font-size: 14px;
+  color: #000;
+  opacity: 0.5;
+}
+
+.about-text h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.about-text p {
+  font-size: 16px;
+  color: #111;
+  opacity: 0.9;
+}
+
+.about-text a {
+  color: #f06161;
+  font-size: 16px;
+}
+
+.ollie-about-item {
+  padding: 65px 5px;
+}
+
+.about-item {
+  display: flex;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 20px 30px;
+}
+
+.about-icon {
+  font-size: 30px;
+  color: #000;
+  opacity: 0.8;
+  padding-right: 25px;
+}
+
+.about-icon-text h5 {
+  color: #f06161;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.about-icon-text h4 {
+  font-size: 16px;
+  color: #111;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+/* work area*/
+
+.ollie-work {
+  padding: 60px 10px;
+}
+
+.work-text {
+  padding: 0;
+  margin: 0;
+}
+
+.work-text h6 {
+  color: #212529;
+  font-size: 13px;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.work-text h2 {
+  color: #212529;
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.work-item {
+  text-align: center;
+}
+
+.work-item a h3 {
+  color: #343a40;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 45px;
+}
+
+.work-item a p {
+  font-size: 13px;
+  color: #111;
+  opacity: 0.5;
+  padding: 0 27px;
+}
+
+/*products area*/
+
+.products {
+  background: #f1fafb;
+  padding: 60px 10px;
+}
+
+.products-hedging h6 {
+  color: #212529;
+  font-size: 13px;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.products-hedging h3 {
+  color: #212529;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.productc-item a h4 {
+  color: #f06161;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.productc-item a p {
+  font-size: 13px;
+  color: #111;
+  opacity: 0.5;
+  margin-right: 10px;
+}
+
+/* testmonials area*/
+
+.testmonials {
+  padding: 60px 10px;
+}
+
+.testmonials-hedging h6 {
+  color: #212529;
+  opacity: 0.5;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.testmonials-hedging h3 {
+  color: #212529;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.testmonials-img img {
+  border-radius: 100%;
+  padding: 30px 10px;
+}
+
+.testmonials-text i {
+  color: #212529;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.testmonials-text p {
+  color: #111;
+  opacity: 0.9;
+  font-size: 16px;
+}
+
+.testmonials-text h5 {
+  text-align: end;
+  color: #212529;
+  padding: 0;
+}
+
+.testmonials-text h2 {
+  color: #212529;
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 2px solid #f06161;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.testmonials-text h4 {
+  font-size: 13px;
+  color: #212529;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.owl-nav {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.owl-prev {
+  margin: 10px;
+}
+
+/*ollie-address area*/
+
+.ollie-address {
+  background: #2c3e50;
+  padding: 60px 15px;
+}
+
+.address-text h5 {
+  color: #fff;
+  opacity: 0.9;
+  font-size: 16px;
+}
+
+.address-text h3 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.address-text p {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.address-Contact {
+  text-align: end;
+}
+
+.address-Contact a {
+  color: #fff;
+  opacity: 0.9;
+}
+
+.address-Contact a i {
+  display: inline-block;
+  padding: 4px 0;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.address-social-media {
+  padding-left: 50px;
+}
+
+.address-social-media h6 {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.address-social-media ul {
+  display: flex;
+}
+
+.address-social-media ul li {
+  padding-right: 8px;
+}
+
+.address-social-media ul li a i {
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* blog area*/
+
+.blog {
+  padding: 50px 10px;
+}
+
+.blog-hedging h6 {
+  color: #212529;
+  font-size: 13px;
+  opacity: .5;
+  font-weight: bold;
+}
+
+.blog-hedging h5 {
+  color: #212529;
+  font-size: 28px;
+  font-weight: 800;
+  padding-bottom: 35px;
+}
+
+.blog-image {
+  position: relative;
+
+}
+
+.blog-date {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.blog-image h4 {
+  font-size: 25px;
+  background: #f7a7a7;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-image h3 {
+  font-size: 20px;
+  background: #f38282;
+  width: 50px;
+  height: 28px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-text h2 {
+  color: #212529;
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.blog-text p {
+  color: #111;
+  opacity: .9;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.blog-button a {
+  background: #17a2b8;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.blog-footer h1 {
+  margin-top: 15px;
+  color: #495057;
+  font-weight: bold;
+  font-size: 16px;
+  opacity: .8;
+
+}
+
+.blog-footer h1 a {
+  color: #495057;
+  opacity: .8;
+  margin-right: 10px;
+}
+
+/* footer area */
+.footer {
+  background-color: #f1fafb;
+}
+
+.footer-hedging {
+  padding: 50px 0;
+}
+
+.footer-hedging p {
+  font-size: 14px;
+  color: #495057;
+  font-weight: bold;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.footer-hedging h5 {
+  font-size: 25px;
+  color: #000;
+  font-weight: 800;
+
+}
+
+.Contact-form {
+  padding: 50px 0;
+
+
+}
+
+.Contact-form input,
+.Contact-form textarea {
+  background: transparent;
+  border-color: rgb(184, 184, 184);
+
+}
+
+.Contact-form button {
+  background-color: #f06161;
+  padding: 10px 100px;
+  margin: 0 auto;
+  display: block;
+  color: #000;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.Contact-info {
+  padding: 50px 0;
+
+}
+
+.info-text h5 {
+  font-size: 18px;
+  color: #000;
+  font-weight: 800;
+}
+
+.info-text p {
+  font-size: 14px;
+  color: #000;
+  display: inline-block;
+  border-top: 1px solid rgba(184, 184, 184, .4);
+  padding: 15px 0;
+}
+
+.info-icon ul li {
+  padding: 10px 0;
+}
+
+.info-icon ul li i {
+  padding: 0 10px;
+  opacity: .9;
+  color: #111;
+
+}
+
+.copyright-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+
+  border-top: 1px solid rgba(177, 176, 176, .4);
+
+}
+
+
+.copyright p {
+  color: #000;
+  opacity: .9;
+  font-size: 15px;
+}
+
+
+
+.copyright-icon ul {
+  display: flex;
+}
+
+.copyright-icon ul li {
+  padding: 0 10px;
+}
+
+.copyright-icon ul li a {
+  color: #343a40;
+  font-size: 18px;
+}
+
+/* -----------------------------------
+    responsive area
+ -----------------------------------  */
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {
+  .menu-social-media h6 {
+    text-align: left;
+  }
+
+  .menu-social-media,
+  .menu-Contact {
+    padding-top: 50px;
+  }
+
+  .menu-social-media ul {
+    display: flex;
+    justify-content: left;
+  }
+
+  .ollie-about-item {
+    padding: 10px 0;
+  }
+
+  .address-Contact {
+    text-align: left;
+    padding: 20px 0;
+  }
+
+  .address-social-media {
+    padding: 20px 0;
+  }
+
+}
